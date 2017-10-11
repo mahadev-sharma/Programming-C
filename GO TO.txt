@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+    printf("Hello 1world!\n");
+    printf("Hello 2world!\n");
+    goto heim;
+    printf("Hello 3world!\n");
+    printf("Hello 4world!\n");
+
+    heim:printf("Hello 5world!\n");
+    return 0;
+}

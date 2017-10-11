@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a=10;
+    int b=20;
+    int c=30;
+    int d=50;
+    int result;
+    result=a+b;
+    printf("a+b=%d\n",result);
+    result=a-b;
+    printf("a-b=%d\n",result);
+    result=a*b;
+    printf("a*b=%d\n",result);
+    result=b/a;
+    printf("b/a=%d\n",result);
+    result=a+b*c;
+    printf("a+b*c=%d\n",result);
+    //printf("Hello world!\n");
+    return 0;
+}

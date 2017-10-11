@@ -1,0 +1,25 @@
+// ConsoleApplication1.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include "stdio.h"//include in library
+#include "stdint.h"
+#include"stdlib.h"
+#define BUZZER_SIZE 100
+#define MAHADEV 999999
+
+int main()
+{
+	int days = 12 + 181 + 282 - 188;//calculating directly
+	double height = 100;
+	double width = 100;
+	double lenghth = 100;
+	double volume = height*lenghth*width; //usoing as formulae
+	printf("days=%d\n", days);//integer
+	printf("volume=%lf\n",volume);//long float
+	printf("Mahadev is %d",MAHADEV);
+
+	return 0;
+}
+
+//foundations of programming:fundamentals

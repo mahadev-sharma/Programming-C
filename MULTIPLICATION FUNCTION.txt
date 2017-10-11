@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+//function prototype must be declared first
+int hello(int );
+
+
+int main()
+{
+    int i =10;
+    int j;
+    //function call
+    j=hello(i);
+    printf("%i %i",i,j);
+
+    return 0;
+}
+//function built
+int hello(int x)
+{
+    printf("Hello world!\n");
+    printf("%i\n",x);
+    return (x*10);
+}

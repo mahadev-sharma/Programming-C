@@ -1,0 +1,30 @@
+//use of if loop
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+
+int main()
+{
+    //uint16_t a;
+    //uint16_t b;
+    //uint16_t c;
+    //uint16_t d;
+    int a,b,c,d;
+
+    scanf("%d%d%d%d",&a,&b,&c,&d);
+    if((a+b)>(c+d))
+    {
+        printf("first term is high");
+    }
+    if ((a+b)==(c+d))
+    {
+        printf("both terms are equal");
+    }
+    else
+
+        printf("second term is high");
+
+
+   // printf("Hello world!\n");
+    return 0;
+}

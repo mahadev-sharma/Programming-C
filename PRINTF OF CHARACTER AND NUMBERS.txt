@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    printf("Do you know my biggest fantasy?\n");
+    char a,b,x,y,e,f,g,h,i,j,k;
+    int p;
+
+    scanf("%c%c%c%c%c%c%d%c%c%c%c%c",&a,&b,&x,&y,&e,&f,&p,&g,&h,&i,&j,&k);
+
+    printf("My biggest dream is %c%c%c%c%c%c%d%c%c%c%c%c\n",a,b,x,y,e,f,p,g,h,i,j,k);
+    return 0;
+}

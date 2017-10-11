@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int mul(int,int,int);
+
+int main()
+{
+    int a,b,c,result;
+
+    printf( "scan three numbers:\n" );
+    scanf( "%d%d%d", &a,&b,&c );
+    result = mul(a,b,c);
+      printf( "answer is :%d\n" ,result);
+    return 0;
+}
+int mul(int a,int b,int c)
+{
+    int answer;
+    answer=a*b*c;
+return answer;
+}

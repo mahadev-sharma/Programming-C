@@ -1,0 +1,22 @@
+/*NAME OF CODE:ARRAY WITH FOR LOOP with scanf
+  CODE CREATOR:MAHADEV SHARMA
+  CODE INSTRUCTOR:ALLEN-SMITH
+  CODE CREATED IN CONESTOGA COLLEGE
+  DATE OF CODE GENERATION:15TH NOVEMBER 2016
+  CODER:da_dvinci*/
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int sub[10],i,t_otal=0;//initializing variable with zero helps to reduce garbade value
+    printf("Enter ten numbers\n");
+    for (i=0;i<10;i++)
+    {
+        scanf("%d",&sub[i]);
+        t_otal=t_otal+sub[i];
+
+    }
+    printf("%d",t_otal);
+    return 0;
+}

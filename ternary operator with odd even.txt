@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+	int v;
+	printf("Enter positive value:\n ");
+
+	scanf("%d",&v);
+printf("The value is:%d %s ",
+       v,
+       (v%2)?"odd":"even");
+
+	return(0);
+}
+

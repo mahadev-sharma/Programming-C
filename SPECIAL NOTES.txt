@@ -1,0 +1,35 @@
+>>>>>SPECIAL NOTES
+>ALWAYS TRY TO DECLARE VARIABLE WHERE YOU ARE GOING TO USE.
+>Understanding the use of arithmetic operators
+>>>>>>ADDING HEADER FILE IN C
+>only name of function available in .h
+>full detail of function available in .c
+>  no need to include standard libraries because they are already include
+>while 0 does not execute
+>>>>>languages learn for job
+>c++
+>python
+>cleart pth robotics
+>>>>>memory managment
+>>fopen
+>fclose
+>r open an existing file for readimng
+>w open an existiong file for writting 
+>a open a file for writing in append mode
+>a+ open a file for reading/writing in append mode
+>r+ opens a txt file for reading/writing(for maximum flexibility)
+>fseek for random memory access 
+>parameters of function is pointers
+>>undef removes the value from main header and use the new one ,actully it just --over write for that cide only header file will not be affected
+>>first make planning algorithm and flow chart then statrt witing code
+>&is not needed in array of pointer
+
+>pointers must be initialize before they used
+>ctype.h=or charcter operation
+>toupper for capital
+>tolower for small characters
+>>simple is better than smart >easy to debug >easy to improve>easy to --explain>easy to give to some one else
+>using for places of digit %5d usnig for five digit formatted output
+>instruction to change the colour of font in consol=system("color 02");
+
+

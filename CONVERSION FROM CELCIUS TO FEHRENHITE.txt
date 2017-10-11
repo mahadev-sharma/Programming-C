@@ -1,0 +1,33 @@
+/*NAME OF CODE:function of relation between celsius and fernahite
+  CODE CREATOR:MAHADEV SHARMA
+  CODE INSTRUCTOR:ALLEN-SMITH
+  CODE CREATED IN CONESTOGA COLLEGE
+  DATE OF CODE GENERATION:25TH OCTOBER 2016
+  CODER:da_dvinci*/
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+int c_elcius();
+int main()
+{
+
+
+    printf("enter value of celsious and you will get in fernhite\n");
+    c_elcius();
+    return 0;
+}
+int c_elcius()
+{
+  float c;
+  printf("c=");
+  scanf("%f",&c);
+
+  printf("F=%f",((9*c)/5)+32);
+
+return c;
+}
+
+
+

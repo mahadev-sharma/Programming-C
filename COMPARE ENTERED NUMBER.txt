@@ -1,0 +1,30 @@
+/*NAME OF CODE:compare enter code is perfect or wrong
+  CODE CREATOR:MAHADEV SHARMA
+  CODE INSTRUCTOR:ALLEN-SMITH
+  CODE CREATED IN CONESTOGA COLLEGE
+  DATE OF CODE GENERATION:25TH OCTOBER 2016
+  CODER:da_dvinci*/
+#include <stdio.h>
+#include <stdlib.h>
+int c_odeCompare();
+int main()
+{
+    c_odeCompare();
+    return 0;
+}
+int c_odeCompare()
+{
+ printf("hi buddy enter the code=");
+ int a=1111;
+ int b;
+ scanf("%d",&b);
+ if(a==b)
+ {
+     printf("perfect buddy");
+ }
+ else
+ {
+     printf("chal fut le");
+ }
+ return b;
+}

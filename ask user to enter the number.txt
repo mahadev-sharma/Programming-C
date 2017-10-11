@@ -1,0 +1,23 @@
+// ConsoleApplication1.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include "stdio.h"//include in library
+#include "stdint.h"
+#include"stdlib.h"
+#define BUZZER_SIZE 100
+
+int main()
+{
+	int a;
+	printf( "enter the number=" );
+	scanf("%d",&a );
+	printf( "you enter number=%d\n",a );
+	printf("%d\n", BUZZER_SIZE);
+	
+	puts("all working fine  :-)");//just working for print string
+
+	return 0;
+}
+
+//foundations of programming:fundamentals

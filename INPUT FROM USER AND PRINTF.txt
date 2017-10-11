@@ -1,0 +1,27 @@
+/*NAME OF CODE:JUST TAKE INPUT FROM USER AND PRINT
+  CODE CREATOR:MAHADEV SHARMA
+  CODE INSTRUCTOR:ALLEN-SMITH
+  CODE CREATED IN CONESTOGA COLLEGE
+  DATE OF CODE GENERATION:25TH OCTOBER 2016
+  CODER:da_dvinci*/
+
+//INCLUDE STANDARD INPUT OUTPUT
+#include <stdio.h>
+//INCLUDE STANDARD LIBRARY
+#include <stdlib.h>
+//EMBARKING THE PROGRAM
+int main()
+{//initializing intiger
+    //i choose float inted of int becxause i need answer in points
+    float a;
+    //JUST GIVE COMMAND TO USER
+    printf("HEY BUDDY ENTER THE VALUE\n");
+    //taking a as inpugt from user
+    //%d is for decimal value
+    //&is for assigning memory location
+    scanf("%f",&a);
+
+    //printing a as output
+    printf("VALUE OF TAKEN INPUT:%f",a );
+    return 0;
+}

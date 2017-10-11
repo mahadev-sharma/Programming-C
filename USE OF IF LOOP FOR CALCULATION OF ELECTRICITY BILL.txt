@@ -1,0 +1,25 @@
+//use of if loop with for calculate electricith bill
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+
+int main()
+{
+float c_onsuption_unit;
+//int r_ate_of_change;
+scanf("%f",&c_onsuption_unit);
+if(c_onsuption_unit>500)
+{
+    printf("Total charges:%f",3*0.5*c_onsuption_unit);
+}
+if((500>=c_onsuption_unit)&&(c_onsuption_unit>=200))
+{
+    printf("Total charges:%f",2*0.5*c_onsuption_unit);
+}
+if((100>=c_onsuption_unit)&&(c_onsuption_unit>=0))
+{
+    printf("Total charges:%f",0.5*c_onsuption_unit);
+}
+
+    return 0;
+}

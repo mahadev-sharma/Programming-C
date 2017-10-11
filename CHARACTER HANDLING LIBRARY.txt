@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<stdint.h>//for using uint
+#include<ctype.h>//character handling library
+int main()
+{ uint16_t aero=10;
+    printf("%d\n",aero);
+    return 0;
+}

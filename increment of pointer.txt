@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+	int r_am,*s_hyam;
+	s_hyam=&r_am;
+	*s_hyam=90;
+
+	printf("here is the value=%d\n",*s_hyam);
+	printf("here is the value plus=%d",++*s_hyam);
+
+	return(0);
+}
+

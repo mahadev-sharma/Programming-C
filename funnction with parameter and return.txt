@@ -1,0 +1,17 @@
+// function with parameters
+#include <stdio.h>
+#include <stdlib.h>
+int sum(int firstValue,int secondValue,int thirdValue,int fouthValue)
+{
+   int summationOfNumbers;
+   summationOfNumbers=firstValue+secondValue+thirdValue+fouthValue;
+   printf("summantiion of two number=%d",summationOfNumbers);
+//return 0;//for normal retrn
+  return summationOfNumbers;
+}
+int main()
+{
+    sum(10,20,70,90 );//i can't put less number of arguments
+    return 0;
+}
+

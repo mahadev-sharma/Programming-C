@@ -1,0 +1,44 @@
+/*NAME OF CODE:create a function to find whether enter value is positve or negative or zero
+  CODE CREATOR:MAHADEV SHARMA
+  CODE INSTRUCTOR:ALLEN-SMITH
+  CODE CREATED IN CONESTOGA COLLEGE
+  DATE OF CODE GENERATION:25TH OCTOBER 2016
+  CODER:da_dvinci*/
+
+
+#include <stdio.h>
+#include <stdlib.h>
+int c_omparison();
+int main()
+{
+  printf("Enter the value for comparision=\n");
+  c_omparison();
+
+
+return 0;
+}
+
+
+  int c_omparison()
+{
+
+    int a;
+    scanf("%d",&a);
+    if (a>0)
+    {
+        printf("Our value is positive");
+
+    }
+    else if(a==0)
+    {
+        printf("Our value is zero");
+
+    }
+
+    else
+        {
+        printf("Our value is negative");
+
+        }
+  return a;
+}

@@ -1,0 +1,23 @@
+/*NAME OF CODE:decision making and branching
+  CODE CREATOR:MAHADEV SHARMA
+  CODE INSTRUCTOR:ALLEN-SMITH
+  CODE CREATED IN CONESTOGA COLLEGE
+  DATE OF CODE GENERATION:05 november 2016
+  CODER:da_dvinci*/
+
+#include <stdio.h>
+#include <stdlib.h>
+//even number checking
+int main()
+{  int a;
+printf("ENETRR THE VALUE TO BE CHECKED\n");
+scanf("%d",&a);
+
+
+    if (a%2==0)
+    {
+        printf("even number=%d\n",a);
+    }
+    printf("value of a=%d",a );
+    return 0;
+}

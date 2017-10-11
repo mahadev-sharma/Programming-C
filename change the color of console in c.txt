@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    system("COLOR 2");
+	while(1)
+	{
+		printf("01");
+
+	}
+
+	return(0);
+}
+

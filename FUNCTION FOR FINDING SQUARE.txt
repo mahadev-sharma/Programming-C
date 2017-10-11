@@ -1,0 +1,25 @@
+/*NAME OF CODE:make afunction to finding square
+  CODE CREATOR:MAHADEV SHARMA
+  CODE INSTRUCTOR:ALLEN-SMITH
+  CODE CREATED IN CONESTOGA COLLEGE
+  DATE OF CODE GENERATION:1 november 2016
+  CODER:da_dvinci*/
+#include <stdio.h>
+#include <stdlib.h>
+float s_qare();
+
+int main()
+{
+    s_qare();
+    return 0;
+}
+float s_qare()
+{
+    float m;
+    float n;
+    printf("Enter the value to be sqared=" );
+    scanf("%f",&m);
+    n=m*m;
+    printf("Our output=%f",n);
+    return n;
+}

@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{int i;
+    int secretCodes[] = {1111,2222,3333,4444,5555,6666,7777,8888,9999,9998};
+    for ( i = 0; i < 10; i++ )
+        {
+
+         printf("%d\n",secretCodes[i]);
+        }
+int enteredCode;
+
+    printf ( "      HI :-) \n" );
+
+    printf ("ENTER THE PASSWORD\n");
+         scanf ("%d",&enteredCode);
+
+         printf("\n");
+
+         //printf("%d",enteredCode);
+int l=1;
+for ( i = 0; i < 10; i  ++ )
+   {
+       if ( secretCodes [i] == enteredCode )
+        l=0;
+   }
+
+
+        if(l==0)
+        {
+        printf("\nACCESS GRANTED");
+        }
+          else
+           {
+
+            printf("\nACCESS DENIED");
+            printf("\nTRY AGAIN");
+           }
+
+    return 0;
+}

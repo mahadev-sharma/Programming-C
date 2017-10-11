@@ -1,0 +1,83 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{    int secretCodes1 = 1111;
+     int secretCodes2 = 2222;
+     int secretCodes3 = 3333;
+     int secretCodes4 = 4444;
+     int secretCodes5 = 5555;
+     int secretCodes6 = 6666;
+     int secretCodes7 = 7777;
+     int secretCodes8 = 8888;
+     int secretCodes9 = 9999;
+     int secretCodes10 = 9998;
+     printf("%d\n",secretCodes1);
+     printf("%d\n",secretCodes2);
+     printf("%d\n",secretCodes3);
+     printf("%d\n",secretCodes4);
+     printf("%d\n",secretCodes5);
+     printf("%d\n",secretCodes6);
+     printf("%d\n",secretCodes7);
+     printf("%d\n",secretCodes8);
+     printf("%d\n",secretCodes9);
+     printf("%d\n",secretCodes10);
+
+
+int enteredCode;
+         printf ( "      HI :-) \n" );
+    printf ("ENTER THE PASSWORD\n");
+         scanf ("%d",&enteredCode);
+         printf("\n%d",enteredCode);
+
+       if (secretCodes1 == enteredCode  )
+        {
+        printf("\nACCESS GRANTED");
+        }
+
+        else if (secretCodes2 == enteredCode  )
+        {
+        printf("\nACCESS GRANTED");
+        }
+        else if (secretCodes3 == enteredCode  )
+        {
+        printf("\nACCESS GRANTED");
+        }
+        else if (secretCodes4 == enteredCode  )
+        {
+        printf("\nACCESS GRANTED");
+        }
+        else if (secretCodes5 == enteredCode  )
+        {
+        printf("\nACCESS GRANTED");
+        }
+        else if (secretCodes6 == enteredCode  )
+        {
+        printf("\nACCESS GRANTED");
+        }
+        else  if (secretCodes7 == enteredCode  )
+        {
+        printf("\nACCESS GRANTED");
+        }
+        else if(secretCodes8 == enteredCode  )
+        {
+        printf("\nACCESS GRANTED");
+        }
+        else if (secretCodes9 == enteredCode  )
+        {
+        printf("\nACCESS GRANTED");
+        }
+        else if (secretCodes10 == enteredCode  )
+        {
+        printf("\nACCESS GRANTED");
+        }
+
+          else
+           {
+            printf("\nACCESS DENIED");
+            printf("\nTRY AGAIN");
+           }
+    return 0;
+}
+
+

@@ -1,0 +1,37 @@
+// ConsoleApplication1.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include "stdio.h"//include in library
+#include "stdint.h"
+#include"stdlib.h"
+#define BUZZER_SIZE 100
+#define MAHADEV 999999
+
+int main()
+{
+	int days = 12 + 181 + 282 - 188;//calculating directly
+	double height = 100;
+	double width = 100;
+	double lenghth = 100;
+	char q = 112;//char is also one kind of integer upto 127
+	double volume = height*lenghth*width; //usoing as formulae
+	printf("days=%d\n", days);//integer
+	printf("volume=%lf\n",volume);//long float
+	printf("Mahadev is %d\n",MAHADEV);
+	printf("Mahadev is %d\n", q);
+	printf("storage size of integer: %lu\n",sizeof(int));
+	printf("storage size of double:%lu\n",sizeof(double));
+	printf("storage size of char:%lu\n",sizeof(char));
+	float floatNumber = 10.0 / 3.0;//always put 0 at end unless it will consider as integer
+	double doubleNumber = 10.0 / 3.0;
+	long double longDoubleNumber = 10.0 / 3.0;
+	puts("\ncompare precesion upto four digits\n");
+	printf("floatNumber:%1.10f\n", floatNumber);
+	printf("doubleNumber:%1.10f\n", doubleNumber);
+	printf("longDoubleNumber:%1.10f\n", longDoubleNumber);
+	return 0;
+}
+
+
+//foundations of programming:fundamentals

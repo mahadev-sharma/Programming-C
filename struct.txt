@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+	struct person
+	{
+		char name[32];
+		int age;
+		float wife;
+	};
+	struct person president =
+	{
+		"George Washington",
+		67,
+		62.7
+	};
+
+	printf("%s was %d years old\n and his wife is %.1f old",president.name,president.age,president.wife);
+
+	return(0);
+}
+

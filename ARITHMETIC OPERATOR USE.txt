@@ -1,0 +1,48 @@
+/*NAME OF CODE:DATA ON PROCESS
+  CODE CREATOR:MAHADEV SHARMA
+  CODE INSTRUCTOR:ALLEN-SMITH
+  CODE CREATED IN CONESTOGA COLLEGE
+  DATE OF CODE GENERATION:25TH OCTOBER 2016
+  CODER:da_dvinci*/
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a;
+    int b;
+    //multiply
+    int res_1;
+    //division
+    int res_2;
+    //addition
+    int res_3;
+    //substraction
+    int res_4;
+    //double addition
+    int res_5;
+
+    printf("HEY,BUDDY JUST DO THE PROCESS\n");
+    printf(">ENTER FIRST VALUE:");
+
+    scanf("%d",&a);
+    //printf("%d",a);
+    printf(">>ENTER SECOND VALUE:");
+    scanf("%d",&b);
+    res_1=a*b;
+    printf("%d\n",res_1);
+    res_2=a/b;
+    printf("%d\n",res_2);
+    res_3=a+b;
+    printf("%d\n",res_3);
+    res_4=a-b;
+    printf("%d\n",res_4);
+    res_5=a+b+res_1;
+    printf("%d\n",res_5);
+
+
+    return 0;
+}

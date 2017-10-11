@@ -1,0 +1,7 @@
+smt-32 with esp8266
+https://github.com/Naguissa/WiFiLib(it cotains library)
+https://github.com/MaJerle/ESP8266_AT_Commands_parser(hal drivers and libraries)
+https://stm32f4-discovery.net/2015/07/new-library-system-built-on-stm32fxxx-hal-drivers/(all stm32 libraries)
+https://www.elektormagazine.com/labs/wifi-for-mcus-using-esp8266
+https://hackaday.io/project/10457-sunleaf/log/42595-esp-to-stm32-communication-slip-interface
+

@@ -1,0 +1,73 @@
+/*NAME OF CODE:MAKING SIMPLE FUNCTION FOR ADDITION
+  CODE CREATOR:MAHADEV SHARMA
+  CODE INSTRUCTOR:ALLEN-SMITH
+  CODE CREATED IN CONESTOGA COLLEGE
+  DATE OF CODE GENERATION:25TH OCTOBER 2016
+  CODER:da_dvinci*/
+#include <stdio.h>
+#include <stdlib.h>
+int additio_n(int a,int b);
+int mul_ti(int a,int b);
+int sub_stract(int a,int b);
+float divisio_n(float a,float b);
+//MAIN PROGRAM STARTS FROM HERE
+int main()
+{int a;
+ int b;
+ int c;
+ int d;
+ int e;
+ float f;
+  printf("YO \nTHIS IS \nTHE WAY \nTO MAKE \n>>>FUNCTION\n\n\n\n\n");
+ scanf("%d",&a);
+ scanf("%d",&b);
+ printf("a=%d\n",a);
+ printf("b=%d\n",b);
+ c=additio_n(a,b);
+ d=mul_ti(a,b);
+ e=sub_stract(a,b);
+ f=divisio_n(a,b);
+ printf(">>>>>>ANWER OF OUR ADDITION FUNCTION:%d\n",c);
+ printf("ANWER OF OUR MULTIPLICATION FUNCTION:%d\n",d);
+ printf(">>ANWER OF OUR SUBSTRACTION FUNCTION:%d\n",e);
+ printf(">>>>>>ANWER OF OUR DIVISION FUNCTION:%f\n",f);
+
+
+
+    return 0;
+}
+//addtion function
+//function header
+int additio_n(int x,int y)
+//function defination
+
+{
+    int z;
+    z = x + y ;
+    return(z);
+}
+int mul_ti(int x,int y)
+//function defination
+
+{
+    int z;
+    z = x * y ;
+    return(z);
+
+}
+int sub_stract(int x,int y)
+//function defination
+
+{
+    int z;
+    z = x - y ;
+    return(z);
+}
+float divisio_n(float x,float y)
+//function defination
+
+{
+    float z;
+    z = x / y ;
+    return(z);
+}

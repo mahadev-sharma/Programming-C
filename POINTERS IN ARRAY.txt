@@ -1,0 +1,24 @@
+/*NAME OF CODE:pointers in arrsy
+  CODE CREATOR:MAHADEV SHARMA
+  CODE INSTRUCTOR:ALLEN-SMITH
+  CODE CREATED IN CONESTOGA COLLEGE
+  DATE OF CODE GENERATION:12th november 2016
+  CODER:da_dvinci*/
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int marks[]={10,20,30};
+    int *point[3],i;
+    for (i=0;i<3;i++)
+    {
+        printf("%d\n",marks[i]);
+        point[i]=&marks[i];
+        printf("%p\n",*point[i]);
+
+    }
+
+   // printf("Hello world!\n");
+    return 0;
+}

@@ -1,0 +1,21 @@
+/*NAME OF CODE:intro of pointers
+  CODE CREATOR:MAHADEV SHARMA
+  CODE INSTRUCTOR:ALLEN-SMITH
+  CODE CREATED IN CONESTOGA COLLEGE
+  DATE OF CODE GENERATION:12th november 2016
+  CODER:da_dvinci*/
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int *m;
+    int a=20;
+    m=&a;//this process known as referencing
+    printf("so my pionter value=%d\n",a);
+    printf("so my pionter value=%d\n",*m);
+    printf("so my pionter value=%p\n",&a);
+    printf("so my pionter value=%p\n",m);//this process is known as derefrencing
+    printf("so my pionter value=%p\n",&m);
+    return 0;
+}

@@ -1,0 +1,23 @@
+//UNDERSTANDING OF STRING TOKE
+#include <string.h>
+#include <stdio.h>
+
+int main()
+{
+   char str[180] = "$GPGGA,092750.000,5321.6802,N,00630.3372,W,1,8,1.03,61.7,M,55.2,M,*76";
+   const char s[2] = ",";
+   char *token;
+
+   /* get the first token */
+   token = strtok(str, s);
+
+   /* walk through other tokens */
+   while( token != NULL )
+   {
+      printf( " %s\n", token );
+
+      token = strtok(NULL, s);
+   }
+
+   return(0);
+}

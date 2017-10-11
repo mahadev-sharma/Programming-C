@@ -1,0 +1,34 @@
+/*NAME OF CODE:MULTIPLY THREE DIGITS AND STORE THEM
+  CODE CREATOR:MAHADEV SHARMA
+  CODE INSTRUCTOR:ALLEN-SMITH
+  CODE CREATED IN CONESTOGA COLLEGE
+  DATE OF CODE GENERATION:25TH OCTOBER 2016
+  CODER:da_dvinci*/
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{   int a;
+    int b;
+    int c;
+    int multiplied_value;
+    printf(">HEY MAN ARE YOU READY TO DO MULTIPLICATION\n");
+
+    printf(">>HEY ENTER THE FIRST VALUE:");
+    scanf("%d",&a);
+    //printf("%d",a);
+
+    printf(">>HEY ENTER THE SECOND VALUE:");
+    scanf("%d",&b);
+    //printf("%d",b);
+
+    printf(">>HEY ENTER THE THIRD VALUE:");
+    scanf("%d",&c);
+    //printf("%d",c);
+    multiplied_value=a*b*c;
+    printf(">>>>>OUR ANSWER AFTER MULTIPLICATION:%d",multiplied_value);
+    return 0;
+}

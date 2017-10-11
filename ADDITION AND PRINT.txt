@@ -1,0 +1,25 @@
+/*NAME OF CODE:
+  CODE CREATOR:MAHADEV SHARMA
+  CODE INSTRUCTOR:ALLEN-SMITH
+  CODE CREATED IN CONESTOGA COLLEGE
+  DATE OF CODE GENERATION:25TH OCTOBER 2016
+  CODER:da_dvinci*/
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float a;
+    float b;
+    float c;
+    printf(">>>>>I\nAM\nTHE\nMOST\nINTELLIGENT\n>>>>>MAN\nON\nTHE\nEARTH:\n\n\n\n\n\n");
+    scanf("%f",&a);
+    scanf("%f",&b);
+    c=a+b;
+    printf("%5.5f\n",c);
+
+    return 0;
+}

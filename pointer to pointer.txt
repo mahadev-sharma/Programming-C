@@ -1,0 +1,35 @@
+// ConsoleApplication2.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include "stdio.h"
+
+
+int main()
+{
+	int ourInputValue = 5;
+	int *p;//initializing first pointer
+	printf("initial value of our input=%d\n", ourInputValue);
+	p = &ourInputValue;
+	*p = 10;
+	printf("*p=%d\n",*p);
+	printf("second value of our input=%d\n", ourInputValue);
+	int **q;//initializing pointer to pointer
+	q = &p;
+	printf("*q=%d\n", *q);
+	printf("**q=%d\n", (*(*q)));
+	
+
+	int ***r;//initializing pointer to pointer to pointer
+	r = &q;
+	printf("**r=%d\n", **r);
+	printf("***r=%d\n", ***r);
+	***r = 34;
+	printf("fianl  1value of our input=%d\n", ourInputValue);
+	**q = 78;
+	printf("fianl 2value of our input=%d\n", ourInputValue);
+
+
+    return 0;
+}
+

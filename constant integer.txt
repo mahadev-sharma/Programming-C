@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main()
+{
+   const int i = 0;//static is also works like that
+    
+   printf("%d\n", i++);
+   return 0;
+}
+
+It is because ++needs a value and a const variable can’t be modified.

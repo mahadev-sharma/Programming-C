@@ -1,0 +1,14 @@
+/*NAME OF CODE:
+  CODE CREATOR:MAHADEV SHARMA
+  CODE INSTRUCTOR:ALLEN-SMITH
+  CODE CREATED IN CONESTOGA COLLEGE
+  DATE OF CODE GENERATION:25TH OCTOBER 2016
+  CODER:da_dvinci*/
+
+
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+return 0;
+}

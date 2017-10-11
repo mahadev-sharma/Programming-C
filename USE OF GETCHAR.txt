@@ -1,0 +1,27 @@
+/*NAME OF CODE:USE OF GET CHAR
+  CODE CREATOR:MAHADEV SHARMA
+  CODE INSTRUCTOR:ALLEN-SMITH
+  CODE CREATED IN CONESTOGA COLLEGE
+  DATE OF CODE GENERATION:15TH NOVEMBER 2016
+  CODER:da_dvinci*/
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+char a_nswer;
+printf("Would you like to know my name?\n");
+printf("Type Y for yes and N for no:");
+a_nswer=getchar();//reading a character
+if(a_nswer=='y' ||a_nswer=='Y')
+{
+    printf("By the way my name is Mahadev Sharma");
+
+}
+else
+    {
+        printf("Just go to hell");
+}
+
+    return 0;
+}

@@ -1,0 +1,21 @@
+/*NAME OF CODE:print code
+  CODE CREATOR:MAHADEV SHARMA
+  CODE INSTRUCTOR:ALLEN-SMITH
+  CODE CREATED IN CONESTOGA COLLEGE
+  DATE OF CODE GENERATION:1st OCTOBER 2016
+  CODER:da_dvinci*/
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+   printf("     MAHADEV SHARMA\n");
+   printf(">ADRRESSE:KANU MAHARAJ NI CHALI\n");
+   printf(">MAHADERV TEMPLE ROAD\n");
+   printf(">LIMDI,PIN CODE=389180\n\n\n\n\n\n\n\n\n");
+    return 0;
+}

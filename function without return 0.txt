@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    printToKardereBaba();
+
+    return 0;
+}
+void printToKardereBaba()
+{
+    printf("Hello world!\n");
+}

@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#define PI 3.1498043
+float areOf_Circle(float radius)
+{
+//float radius=99.78;
+float area=2*PI*radius*radius;
+printf("Area of circle=%f",area);
+    return 0;
+}
+
+int main()
+{
+   areOf_Circle(65.45);
+    return 0;
+}

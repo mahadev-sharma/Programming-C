@@ -1,0 +1,29 @@
+// ConsoleApplication1.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include "stdio.h"//include in library
+#include "stdint.h"
+#include"stdlib.h"
+#include"string.h"
+
+int main()
+{
+	char adress1[] = "hgfva,sghghs,achvasgh,cdvghw";
+		printf("%s\n",adress1);
+		char name[20];
+		char adress[30];
+		char c;
+		printf("hi buddy hi how are you\n");
+		c = getchar();
+		printf("enter your name\n");
+		scanf("%s",&name);
+		printf("enter your adress\n");
+		scanf("%s", &adress);
+		printf("you said you are:");
+		putchar(c);
+	return 0;
+}
+
+
+//foundations of programming:fundamentals

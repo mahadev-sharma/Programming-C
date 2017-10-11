@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+int multi_of();
+int main()
+{   int res;
+    res=multi_of() + 10;
+    printf("%d our answer is",res);
+    return 0;
+}
+int multi_of()
+ { int a = 10;
+   int b = 20;
+     return a*b;
+ }
